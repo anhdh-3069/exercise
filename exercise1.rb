@@ -1,6 +1,6 @@
 arr = []
 
-(0..4).each_with_index do |val, item|
+(0..4).each do |item|
     print "Nhap a[#{item}]:"
     value = gets.chomp || ""
     arr << value.to_i
